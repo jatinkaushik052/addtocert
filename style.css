@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: cornflowerblue;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    justify-content: space-around;
+}
+.logo img{
+    padding: 5px 0;
+    width: 40%;
+}
+.certLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.certLogo a{
+    text-decoration: none;
+    color: white;
+}
+.certLogo i{
+    padding: 5px 10px;
+    font-size: 35px;
+}
+.certLogo i:hover{
+    border: 1px solid white;
+
+}
+.itemCount{
+    background-color: red;
+    color: white;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.cardList{
+    width: 25%;
+}
+.cardList img{
+    width: 100%;
+    height: 30vh;
+}
+.cardList .addToCert{
+    padding: 3px 3px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    background: #ff9f00;
+}
+ .cardList .buy{
+    padding: 3px 3px;
+    margin-left: 4px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    background: #fb641b;    
+ }
+ .cart{
+    display: none;
+    height: 60vh;
+    width: 620px;
+    background: gray;
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+ }
+ .cart button{
+    bottom: 10px;
+    left: 0;
+ }

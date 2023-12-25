@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Add to Cert</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><img
+                src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                alt=""></div>
+        <div class="certLogo" ><a href="" id="cartbtn"><i  onclick="showCert()" class='bx bx-cart-add'></i></a><b class="itemCount">0</b></div>
+    </nav>
+    <section style="display: flex;">
+        <div class="card">
+            <div class="cardList">
+                <h4 style="font-weight: 400;">Campus New Style</h4>
+                <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/h/c/p/7-ori-9057-7-bersache-white-original-imagngdhqg2szxwc.jpeg?q=70"
+                    alt="">
+                <p class="price"> Rs 899</p>
+                <button class="addToCert" onclick="add('Campus New Style')">ADD TO CERT</button>
+                <button class="buy">BUY NOW</button>
+            </div>
+            <div class="cardList">
+                <h4 style="font-weight: 400;">Self Design Bollywood Net Saree (Pink)</h4>
+                <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/sari/q/o/s/free-brasosari2-0-lorofy-unstitched-original-imagu3uychv8ndgv.jpeg?q=70"
+                    alt="">
+                <p class="price"> Rs 899</p>
+                <button class="addToCert" onclick="add('Net Saree (Pink)')">ADD TO CERT</button>
+                <button class="buy">BUY NOW</button>
+            </div>
+            <div class="cardList">
+                <h4 style="font-weight: 400;">KidsBerry 3 Feet gift for kids </h4>
+                <img src="https://rukminim2.flixcart.com/image/416/416/k5jxfgw0/stuffed-toy/e/h/3/cute-bootsy-121-cm-huggable-and-loveable-for-someone-special-original-imafgdghkeuj9kfx.jpeg?q=70"
+                    alt="">
+                <p class="price"> Rs 899</p>
+                <button class="addToCert" onclick="add('KidsBerry 3')" >ADD TO CERT</button>
+                <button class="buy">BUY NOW</button>
+            </div>
+            <div class="cardList">
+                <h4 style="font-weight: 400;">kapicon KP-BPW Pressure Washer</h4>
+                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/car-pressure-washer/a/c/g/kp-bpw-kapicon-original-imagu2sdzugmjgjm.jpeg?q=70"
+                    alt="">
+                <p class="price"> Rs 899</p>
+                <button class="addToCert" onclick="add('kapicon KP-BPW')" >ADD TO CERT</button>
+                <button class="buy">BUY NOW</button>
+            </div>
+            <div class="cardList">
+                <h4 style="font-weight: 400;">Men Neck Cotton Blend White T-Shirt
+                </h4>
+                <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/1/t/k/s-all-3row-one-nb-nicky-boy-original-imagw96s4zgffryn.jpeg?q=70"
+                    alt="">
+                <p class="price"> Rs 899</p>
+                <button class="addToCert" onclick="add('Men Neck Cotton')">ADD TO CERT</button>
+                <button class="buy">BUY NOW</button>
+            </div>
+            <div class="cardList">
+                <h4 style="font-weight: 400;">imelda AS2021 Lip Stain (3.6 g)</h4>
+                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/lip-gloss/n/d/f/3-6-glitter-color-change-gel-myeong-original-imagkz63nem5hhgq.jpeg?q=70"
+                    alt="">
+                <p class="price"> Rs 899</p>
+                <button class="addToCert" onclick="add('imelda AS2021')">ADD TO CERT</button>
+                <button class="buy">BUY NOW</button>
+            </div>
+          
+        </div>
+        <div class="cart">
+            Total Items = <b id="itemCount">0</b>
+            <ol id="ItemList"></ol>
+
+            
+        </div>
+    </section>
+
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
